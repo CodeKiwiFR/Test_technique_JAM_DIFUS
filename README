@@ -1,0 +1,26 @@
+Vous trouverez dans ce dossier l'ensemble des éléments répondant au test technique que vous m'avez transmis.
+
+1) CONFIGURATION
+    Le script "db.sql" doit pouvoir s'exécuter sans problème et générer la base de données liée au projet.
+    J'ignore de quelle façon vous testerez tout ceci.
+    Personnellement, je fais tourner mes serveurs PHP et MySQL dans des containers et me sers de Adminer pour requêter la BDD.
+    Vous trouverez toutes les informations dans les fichiers de configuration des containers.
+
+2) SERVEUR
+    L'ensemble du code serveur se trouve dans le dossier src.
+    Même si le projet est de petite ampleur, il respecte (au mieux de mes capacités) une architecture MVC.
+    Le point d'entrée est le fichier index.php et agit comme un routeur.
+
+    Afin d'utiliser PHPQuery, j'ai importé mes templates depuis les controllers et ai travaillé sur eux à l'aide des commandes de la libraire.
+    Je ne suis pas convaincu d'avoir fait un usage idéal de cette dernière mais j'ai au moins le sentiment d'avoir compris sa philosophie.
+
+    Concernant le front-end, j'ai délibérément choisi de ne pas respecter la consigne qui imposait d'utiliser jQuery.
+    J'espère que ce ne sera pas rédhibitoire. En réalité, je ne maîtrise pas assez le framework pour le trouver très utile.
+    Je crois avoir réussi à faire tout ce que je voulais avec du Javascript "pur".
+    Le seul bémol dans ce choix, c'est que mes requêtes AJAX auraient été plus simples avec jQuery.
+    L'idéal aurait été d'utiliser fetch mais j'ai l'habitude d'employer XMLHttpRequest et ne voyais pas de raison fondamentale de changer (je n'ai pas trop de callbacks imbriqués).
+    Si j'étais de mauvaise foi, je dirais que j'ai fait ce choix pour m'adapter aux plus anciens navigateurs web :)
+
+    Mis à part ça, et sauf erreur de ma part, je crois répondre à l'ensemble des consignes.
+
+Merci pour votre temps! :)
