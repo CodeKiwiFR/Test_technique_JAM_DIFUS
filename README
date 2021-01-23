@@ -5,6 +5,8 @@ Vous trouverez dans ce dossier l'ensemble des éléments répondant au test tech
     J'ignore de quelle façon vous testerez tout ceci.
     Personnellement, je fais tourner mes serveurs PHP et MySQL dans des containers et me sers de Adminer pour requêter la BDD.
     Vous trouverez toutes les informations dans les fichiers de configuration des containers.
+    
+    Si vous souhaitez changer l'accès à la BDD par le serveur, il n'y a qu'à changer les variables du fichier "/src/config/database.php".
 
 2) SERVEUR
     L'ensemble du code serveur se trouve dans le dossier src.
